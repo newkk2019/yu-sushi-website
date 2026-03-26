@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>御壽司 Yu Sushi｜南京店 — 匠心手作壽司</title>
+    <meta name="description" content="御壽司南京店 — 嚴選新鮮食材，匠心手作每一貫壽司。炙燒系列、握壽司、軍艦壽司，感受最純粹的日式美味。">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;600;700;900&family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index_v1.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar" class="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">
+                <span class="logo-icon">御</span>
+                <span class="logo-text">壽司</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#about" data-section="about">關於我們</a></li>
+                <li><a href="#philosophy" data-section="philosophy">職人精神</a></li>
+                <li><a href="#menu" data-section="menu">精選菜單</a></li>
+                <li><a href="#gallery" data-section="gallery">美味紀實</a></li>
+                <li><a href="#contact" data-section="contact">聯絡我們</a></li>
+            </ul>
+            <a href="https://shop.ichefpos.com/store/tHs8E6WV/ordering" target="_blank" class="nav-cta">立即訂餐</a>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobile-menu">
+        <ul class="mobile-nav-links">
+            <li><a href="#about">關於我們</a></li>
+            <li><a href="#philosophy">職人精神</a></li>
+            <li><a href="#menu">精選菜單</a></li>
+            <li><a href="#gallery">美味紀實</a></li>
+            <li><a href="#contact">聯絡我們</a></li>
+            <li><a href="https://shop.ichefpos.com/store/tHs8E6WV/ordering" target="_blank" class="mobile-cta">立即訂餐</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-bg">
+            <img src="images/hero_sushi.png" alt="御壽司精選壽司拼盤" loading="eager">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-badge">EST. 南京店</div>
+            <h1 class="hero-title">
+                <span class="hero-kanji">御壽司</span>
+                <span class="hero-subtitle-en">Yu Sushi</span>
+            </h1>
+            <p class="hero-tagline">匠心手作 · 鮮味至上</p>
+            <p class="hero-desc">嚴選當日新鮮食材，以職人之心雕琢每一貫壽司<br>讓每一口都是味蕾的極致享受</p>
+            <div class="hero-actions">
+                <a href="https://shop.ichefpos.com/store/tHs8E6WV/ordering" target="_blank" class="btn btn-primary">
+                    <span>線上訂餐</span>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </a>
+                <a href="#menu" class="btn btn-outline">探索菜單</a>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <span>向下探索</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image reveal-left">
+                    <img src="images/restaurant_interior.png" alt="御壽司店內環境" loading="lazy">
+                    <div class="about-image-accent"></div>
+                </div>
+                <div class="about-content reveal-right">
+                    <span class="section-label">About Us</span>
+                    <h2 class="section-title">關於御壽司</h2>
+                    <div class="about-divider"></div>
+                    <p>御壽司南京店秉持著對日本料理的熱忱與執著，堅持選用最新鮮的食材，以傳統技法結合創新巧思，呈現最純粹的壽司之美。</p>
+                    <p>從每日清晨嚴選漁獲，到師傅精心捏製的每一貫壽司，我們追求的不僅是美味，更是一種對食材的敬意與對顧客的誠意。</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number" data-count="10">0</span><span class="stat-plus">+</span>
+                            <span class="stat-label">年職人經驗</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" data-count="50">0</span><span class="stat-plus">+</span>
+                            <span class="stat-label">精選品項</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" data-count="1000">0</span><span class="stat-plus">+</span>
+                            <span class="stat-label">滿意顧客</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Philosophy Section -->
+    <section id="philosophy" class="philosophy section">
+        <div class="philosophy-bg">
+            <img src="images/chef_craft.png" alt="職人手作壽司" loading="lazy">
+            <div class="philosophy-overlay"></div>
+        </div>
+        <div class="container">
+            <div class="philosophy-content">
+                <span class="section-label light">Our Philosophy</span>
+                <h2 class="section-title light">職人精神</h2>
+                <p class="philosophy-quote">「一貫入魂」— 每一貫壽司，都承載著我們對完美的追求</p>
+                <div class="philosophy-cards">
+                    <div class="phil-card reveal-up">
+                        <div class="phil-icon">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+                        </div>
+                        <h3>嚴選食材</h3>
+                        <p>每日清晨精選當季最新鮮的漁獲，從產地到餐桌，嚴格把關每一道食材的品質</p>
+                    </div>
+                    <div class="phil-card reveal-up" style="animation-delay: 0.2s">
+                        <div class="phil-icon">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                        </div>
+                        <h3>匠心技藝</h3>
+                        <p>傳承日本壽司職人的精湛技藝，結合創新手法，讓傳統與現代完美交融</p>
+                    </div>
+                    <div class="phil-card reveal-up" style="animation-delay: 0.4s">
+                        <div class="phil-icon">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+                        </div>
+                        <h3>真心款待</h3>
+                        <p>以真誠的心意款待每一位客人，讓您感受到賓至如歸的溫暖與舒適</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu section">
+        <div class="container">
+            <span class="section-label center">Our Menu</span>
+            <h2 class="section-title center">精選菜單</h2>
+            <p class="section-subtitle">每一道料理，都是職人對美味的堅持</p>
+            
+            <div class="menu-tabs">
+                <button class="menu-tab active" data-category="popular">人氣推薦</button>
+                <button class="menu-tab" data-category="seared">炙燒系列</button>
+                <button class="menu-tab" data-category="nigiri">握壽司</button>
+                <button class="menu-tab" data-category="gunkan">軍艦壽司</button>
+                <button class="menu-tab" data-category="riceball">飯糰系列</button>
+                <button class="menu-tab" data-category="maki">花壽司</button>
+                <button class="menu-tab" data-category="soup">湯品＆炸物</button>
+                <button class="menu-tab" data-category="sets">套餐系列</button>
+                <button class="menu-tab" data-category="sauce">加購醬料</button>
+            </div>
+
+            <div class="menu-grid" id="menu-grid">
+
+                <!-- ======= 人氣推薦 (Popular) ======= -->
+                <div class="menu-item" data-category="popular">
+                    <div class="menu-item-content">
+                        <h3>炙燒鮭魚套餐(12顆)</h3>
+                        <p class="menu-item-desc">附味噌湯，職人推薦超值組合</p>
+                        <span class="menu-price">NT$300</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="popular">
+                    <div class="menu-item-content">
+                        <h3>炙燒焦糖鮭魚</h3>
+                        <p class="menu-item-desc">嚴選鮭魚，炙燒後焦糖化的甜美滋味</p>
+                        <span class="menu-price">NT$25</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="popular">
+                    <div class="menu-item-content">
+                        <h3>鮭魚卵軍艦壽司一貫</h3>
+                        <p class="menu-item-desc">飽滿晶瑩的鮭魚卵，入口迸發鮮甜海味</p>
+                        <span class="menu-price">NT$40</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="popular">
+                    <div class="menu-item-content">
+                        <h3>鮭魚</h3>
+                        <p class="menu-item-desc">新鮮鮭魚搭配醋飯，經典不敗之選</p>
+                        <span class="menu-price">NT$25</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="popular">
+                    <div class="menu-item-content">
+                        <h3>炙燒焦糖大蝦</h3>
+                        <p class="menu-item-desc">焦糖炙燒的大蝦，甜鹹交融</p>
+                        <span class="menu-price">NT$25</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="popular">
+                    <div class="menu-item-content">
+                        <h3>熟食套餐(10顆)</h3>
+                        <p class="menu-item-desc">附味噌湯，美味划算的選擇</p>
+                        <span class="menu-price">NT$210</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="popular">
+                    <div class="menu-item-content">
+                        <h3>茶碗蒸</h3>
+                        <p class="menu-item-desc">滑嫩綿密的蒸蛋，暖心暖胃</p>
+                        <span class="menu-price">NT$40</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="popular">
+                    <div class="menu-item-content">
+                        <h3>炙燒焦糖鮭魚肚</h3>
+                        <p class="menu-item-desc">油脂豐富的鮭魚肚，焦糖炙燒更添風味</p>
+                        <span class="menu-price">NT$25</span>
+                    </div>
+                </div>
+
+                <!-- ======= 炙燒系列 (Seared) ======= -->
+                <!-- 鮭魚肚系列 -->
+                <div class="menu-item" data-category="seared">
+                    <div class="menu-item-content">
+                        <h3>醬燒鮭魚肚</h3>
+                        <p class="menu-item-desc">濃郁醬香搭配肥美鮭魚肚</p>
+                        <span class="menu-price">NT$25</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="seared">
+                    <div class="menu-item-content">
+                        <h3>炙燒鮭魚肚</h3>
+                        <p class="menu-item-desc">炙燒油脂豐富的鮭魚肚，香氣四溢</p>
+                        <span class="menu-price">NT$25</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="seared">
+                    <div class="menu-item-content">
+                        <h3>炙燒蒜味鮭魚肚</h3>
+                        <p class="menu-item-desc">蒜香與炙燒的完美結合</p>
+                        <span class="menu-price">NT$25</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="seared">
+                    <div class="menu-item-content">
+                        <h3>炙燒起司鮭魚肚</h3>
+                        <p class="menu-item-desc">濃郁起司搭配肥美鮭魚肚</p>
+                        <span class="menu-price">NT$25</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="seared">
+                    <div class="menu-item-content">
+                        <h3>炙燒焦糖鮭魚肚</h3>
+                        <p class="menu-item-desc">焦糖炙燒帶出鮭魚肚甜美層次</p>
+                        <span class="menu-price">NT$25</span>
+                    </div>
+                </div>
+                <!-- 大蝦系列 -->
+                <div class="menu-item" data-category="seared">
+                    <div class="menu-item-content">
+                        <h3>醬燒大蝦</h3>
+                        <p class="menu-item-desc">醬香大蝦，鮮甜彈牙</p>
+                        <span class="menu-price">NT$25</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="seared">
+                    <div class="menu-item-content">
+                        <h3>炙燒起司大蝦</h3>
+                        <p class="menu-item-desc">起司與大蝦的絕妙搭配</p>
+                        <span class="menu-price">NT$25</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="seared">
+                    <div class="menu-item-content">
+                        <h3>炙燒蒜味大蝦</h3>
+                        <p class="menu-item-desc">蒜香炙燒大蝦，風味獨特</p>
+                        <span class="menu-price">NT$25</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="seared">
+                    <div class="menu-item-content">
+                        <h3>炙燒焦糖大蝦</h3>
+                        <p class="menu-item-desc">焦糖炙燒的大蝦，甜鹹交融</p>
+                        <span class="menu-price">NT$25</span>
+                    </div>
+                </div>
+                <!-- 鮭魚系列 -->
+                <div class="menu-item" data-category="seared">
+                    <div class="menu-item-content">
+                        <h3>醬燒鮭魚</h3>
+                        <p class="menu-item-desc">醬汁燒烤鮭魚，濃郁可口</p>
+                        <span class="menu-price">NT$25</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="seared">
+                    <div class="menu-item-content">
+                        <h3>炙燒起司鮭魚</h3>
+                        <p class="menu-item-desc">起司與鮭魚的經典組合</p>
+                        <span class="menu-price">NT$25</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="seared">
+                    <div class="menu-item-content">
+                        <h3>炙燒蒜味鮭魚</h3>
+                        <p class="menu-item-desc">蒜香炙燒鮭魚，香氣逼人</p>
+                        <span class="menu-price">NT$25</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="seared">
+                    <div class="menu-item-content">
+                        <h3>炙燒焦糖鮭魚</h3>
+                        <p class="menu-item-desc">焦糖化表面帶出鮭魚的甜美層次</p>
+                        <span class="menu-price">NT$25</span>
+                    </div>
+                </div>
+                <!-- 其他炙燒 -->
+                <div class="menu-item" data-category="seared">
+                    <div class="menu-item-content">
+                        <h3>炙燒生食級干貝</h3>
+                        <p class="menu-item-desc">頂級干貝，炙燒後鮮甜更上層樓</p>
+                        <span class="menu-price">NT$45</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="seared">
+                    <div class="menu-item-content">
+                        <h3>鹽烤鮮蝦</h3>
+                        <p class="menu-item-desc">簡單鹽烤，保留鮮蝦原始鮮甜</p>
+                        <span class="menu-price">NT$45</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="seared">
+                    <div class="menu-item-content">
+                        <h3>炙燒比目魚</h3>
+                        <p class="menu-item-desc">炙燒比目魚，油脂細膩入口即化</p>
+                        <span class="menu-price">NT$60</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="seared">
+                    <div class="menu-item-content">
+                        <h3>炙燒牛肉捲</h3>
+                        <p class="menu-item-desc">香嫩牛肉搭配壽司飯，炙燒風味</p>
+                        <span class="menu-price">NT$40</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="seared">
+                    <div class="menu-item-content">
+                        <h3>炙燒起司鮑魚</h3>
+                        <p class="menu-item-desc">鮑魚搭配起司炙燒，奢華享受</p>
+                        <span class="menu-price">NT$25</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="seared">
+                    <div class="menu-item-content">
+                        <h3>炙燒起司玉子</h3>
+                        <p class="menu-item-desc">玉子燒搭配起司，甘甜濃郁</p>
+                        <span class="menu-price">NT$30</span>
+                    </div>
+                </div>
+                <!-- 豬肉捲系列 -->
+                <div class="menu-item" data-category="seared">
+                    <div class="menu-item-content">
+                        <h3>起司豬肉捲</h3>
+                        <p class="menu-item-desc">起司包裹豬肉捲，香濃可口</p>
+                        <span class="menu-price">NT$35</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="seared">
+                    <div class="menu-item-content">
+                        <h3>醬燒豬肉捲</h3>
+                        <p class="menu-item-desc">醬汁燒烤豬肉捲，鹹香開胃</p>
+                        <span class="menu-price">NT$35</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="seared">
+                    <div class="menu-item-content">
+                        <h3>蒜味豬肉捲</h3>
+                        <p class="menu-item-desc">蒜香豬肉捲，風味十足</p>
+                        <span class="menu-price">NT$35</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="seared">
+                    <div class="menu-item-content">
+                        <h3>炙燒泡菜牛肉捲（微辣）</h3>
+                        <p class="menu-item-desc">泡菜與牛肉的韓日融合，微辣開胃</p>
+                        <span class="menu-price">NT$45</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="seared">
+                    <div class="menu-item-content">
+                        <h3>炙燒起司泡菜豬肉捲（微辣）</h3>
+                        <p class="menu-item-desc">起司泡菜豬肉捲，多重滋味</p>
+                        <span class="menu-price">NT$40</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="seared">
+                    <div class="menu-item-content">
+                        <h3>炙燒醬燒泡菜豬肉捲（微辣）</h3>
+                        <p class="menu-item-desc">醬燒泡菜豬肉捲，鹹辣交融</p>
+                        <span class="menu-price">NT$40</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="seared">
+                    <div class="menu-item-content">
+                        <h3>炙燒蒜味泡菜豬肉捲（微辣）</h3>
+                        <p class="menu-item-desc">蒜味泡菜豬肉捲，風味獨特</p>
+                        <span class="menu-price">NT$40</span>
+                    </div>
+                </div>
+
+                <!-- ======= 握壽司 (Nigiri) ======= -->
+                <div class="menu-item" data-category="nigiri">
+                    <div class="menu-item-content">
+                        <h3>鮭魚</h3>
+                        <p class="menu-item-desc">新鮮鮭魚搭配醋飯，經典不敗之選</p>
+                        <span class="menu-price">NT$25</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="nigiri">
+                    <div class="menu-item-content">
+                        <h3>鮭魚肚</h3>
+                        <p class="menu-item-desc">油脂豐富的鮭魚肚，入口即化</p>
+                        <span class="menu-price">NT$25</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="nigiri">
+                    <div class="menu-item-content">
+                        <h3>鮮蝦壽司</h3>
+                        <p class="menu-item-desc">鮮甜彈牙的蝦肉，口感豐富</p>
+                        <span class="menu-price">NT$45</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="nigiri">
+                    <div class="menu-item-content">
+                        <h3>生食級干貝</h3>
+                        <p class="menu-item-desc">頂級生食干貝，鮮甜無比</p>
+                        <span class="menu-price">NT$45</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="nigiri">
+                    <div class="menu-item-content">
+                        <h3>玉子</h3>
+                        <p class="menu-item-desc">手作玉子燒，甘甜柔嫩的經典美味</p>
+                        <span class="menu-price">NT$20</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="nigiri">
+                    <div class="menu-item-content">
+                        <h3>大蝦</h3>
+                        <p class="menu-item-desc">碩大飽滿的蝦身，鮮美可口</p>
+                        <span class="menu-price">NT$20</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="nigiri">
+                    <div class="menu-item-content">
+                        <h3>章魚握壽司</h3>
+                        <p class="menu-item-desc">Q彈章魚搭配醋飯</p>
+                        <span class="menu-price">NT$20</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="nigiri">
+                    <div class="menu-item-content">
+                        <h3>炸蝦壽司</h3>
+                        <p class="menu-item-desc">酥脆炸蝦搭配醋飯，外酥內嫩</p>
+                        <span class="menu-price">NT$45</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="nigiri">
+                    <div class="menu-item-content">
+                        <h3>豆皮握壽司兩貫</h3>
+                        <p class="menu-item-desc">甜潤豆皮包裹醋飯，經典日式</p>
+                        <span class="menu-price">NT$25</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="nigiri">
+                    <div class="menu-item-content">
+                        <h3>秋刀魚握壽司兩貫</h3>
+                        <p class="menu-item-desc">秋刀魚壽司，鮮美油潤</p>
+                        <span class="menu-price">NT$25</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="nigiri">
+                    <div class="menu-item-content">
+                        <h3>松葉蟹握壽司兩貫</h3>
+                        <p class="menu-item-desc">松葉蟹肉，清甜細緻</p>
+                        <span class="menu-price">NT$25</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="nigiri">
+                    <div class="menu-item-content">
+                        <h3>花枝兩貫</h3>
+                        <p class="menu-item-desc">鮮甜花枝，Q彈口感</p>
+                        <span class="menu-price">NT$45</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="nigiri">
+                    <div class="menu-item-content">
+                        <h3>煙燻鮭魚握壽司兩貫</h3>
+                        <p class="menu-item-desc">煙燻風味鮭魚，獨特迷人</p>
+                        <span class="menu-price">NT$45</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="nigiri">
+                    <div class="menu-item-content">
+                        <h3>櫻桃鴨握壽司</h3>
+                        <p class="menu-item-desc">櫻桃鴨肉搭配醋飯，創新風味</p>
+                        <span class="menu-price">NT$30</span>
+                    </div>
+                </div>
+
+                <!-- ======= 軍艦壽司 (Gunkan) ======= -->
+                <div class="menu-item" data-category="gunkan">
+                    <div class="menu-item-content">
+                        <h3>鮭魚卵軍艦壽司一貫</h3>
+                        <p class="menu-item-desc">晶瑩剔透的鮭魚卵，滿滿鮮味</p>
+                        <span class="menu-price">NT$40</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="gunkan">
+                    <div class="menu-item-content">
+                        <h3>醬燒牛肉軍艦壽司一貫</h3>
+                        <p class="menu-item-desc">醬燒牛肉搭配軍艦壽司，鹹香美味</p>
+                        <span class="menu-price">NT$25</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="gunkan">
+                    <div class="menu-item-content">
+                        <h3>泡菜軍艦壽司一貫（微辣）</h3>
+                        <p class="menu-item-desc">韓式泡菜搭配軍艦壽司，清爽微辣</p>
+                        <span class="menu-price">NT$20</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="gunkan">
+                    <div class="menu-item-content">
+                        <h3>蝦卵軍艦兩貫</h3>
+                        <p class="menu-item-desc">細緻蝦卵，鮮美可口</p>
+                        <span class="menu-price">NT$30</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="gunkan">
+                    <div class="menu-item-content">
+                        <h3>魚卵沙拉軍艦兩貫</h3>
+                        <p class="menu-item-desc">魚卵沙拉，清爽鮮甜</p>
+                        <span class="menu-price">NT$30</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="gunkan">
+                    <div class="menu-item-content">
+                        <h3>龍蝦沙拉軍艦兩貫</h3>
+                        <p class="menu-item-desc">龍蝦沙拉，奢華享受</p>
+                        <span class="menu-price">NT$30</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="gunkan">
+                    <div class="menu-item-content">
+                        <h3>鮪魚沙拉軍艦兩貫</h3>
+                        <p class="menu-item-desc">鮪魚沙拉，經典美味</p>
+                        <span class="menu-price">NT$30</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="gunkan">
+                    <div class="menu-item-content">
+                        <h3>鮑魚沙拉軍艦兩貫</h3>
+                        <p class="menu-item-desc">鮑魚沙拉，鮮嫩爽口</p>
+                        <span class="menu-price">NT$30</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="gunkan">
+                    <div class="menu-item-content">
+                        <h3>鰹魚櫻花蝦軍艦兩貫</h3>
+                        <p class="menu-item-desc">鰹魚與櫻花蝦，雙重海味</p>
+                        <span class="menu-price">NT$30</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="gunkan">
+                    <div class="menu-item-content">
+                        <h3>海瓜子軍艦兩貫</h3>
+                        <p class="menu-item-desc">海瓜子鮮味，清甜可口</p>
+                        <span class="menu-price">NT$30</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="gunkan">
+                    <div class="menu-item-content">
+                        <h3>干貝唇軍艦兩貫</h3>
+                        <p class="menu-item-desc">干貝唇口感獨特，鮮美彈牙</p>
+                        <span class="menu-price">NT$30</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="gunkan">
+                    <div class="menu-item-content">
+                        <h3>味付干貝軍艦兩貫</h3>
+                        <p class="menu-item-desc">調味干貝，鮮甜入味</p>
+                        <span class="menu-price">NT$30</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="gunkan">
+                    <div class="menu-item-content">
+                        <h3>辣味螺肉軍艦兩貫</h3>
+                        <p class="menu-item-desc">辣味螺肉，爽脆帶勁</p>
+                        <span class="menu-price">NT$30</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="gunkan">
+                    <div class="menu-item-content">
+                        <h3>玉絲軍艦兩貫</h3>
+                        <p class="menu-item-desc">玉絲軍艦，清爽滑順</p>
+                        <span class="menu-price">NT$30</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="gunkan">
+                    <div class="menu-item-content">
+                        <h3>玉米軍艦兩貫</h3>
+                        <p class="menu-item-desc">清甜玉米，小朋友最愛</p>
+                        <span class="menu-price">NT$30</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="gunkan">
+                    <div class="menu-item-content">
+                        <h3>海帶絲軍艦兩貫</h3>
+                        <p class="menu-item-desc">爽脆海帶絲，清爽開胃</p>
+                        <span class="menu-price">NT$30</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="gunkan">
+                    <div class="menu-item-content">
+                        <h3>肉鬆軍艦兩貫</h3>
+                        <p class="menu-item-desc">鬆軟肉鬆，經典台式風味</p>
+                        <span class="menu-price">NT$30</span>
+                    </div>
+                </div>
+
+                <!-- ======= 飯糰系列 (Rice Ball) ======= -->
+                <div class="menu-item" data-category="riceball">
+                    <div class="menu-item-content">
+                        <h3>肉鬆飯糰</h3>
+                        <p class="menu-item-desc">經典肉鬆飯糰，鬆軟美味</p>
+                        <span class="menu-price">NT$35</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="riceball">
+                    <div class="menu-item-content">
+                        <h3>鮪魚沙拉飯糰</h3>
+                        <p class="menu-item-desc">鮪魚沙拉內餡，清爽飽足</p>
+                        <span class="menu-price">NT$45</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="riceball">
+                    <div class="menu-item-content">
+                        <h3>龍蝦沙拉飯糰</h3>
+                        <p class="menu-item-desc">龍蝦沙拉內餡，鮮美豐盛</p>
+                        <span class="menu-price">NT$45</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="riceball">
+                    <div class="menu-item-content">
+                        <h3>魚卵沙拉飯糰</h3>
+                        <p class="menu-item-desc">魚卵沙拉內餡，口感豐富</p>
+                        <span class="menu-price">NT$45</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="riceball">
+                    <div class="menu-item-content">
+                        <h3>炙燒牛肉飯糰</h3>
+                        <p class="menu-item-desc">炙燒牛肉包裹飯糰，香嫩多汁</p>
+                        <span class="menu-price">NT$55</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="riceball">
+                    <div class="menu-item-content">
+                        <h3>鮭魚卵飯糰</h3>
+                        <p class="menu-item-desc">滿滿鮭魚卵，奢華享受</p>
+                        <span class="menu-price">NT$65</span>
+                    </div>
+                </div>
+
+                <!-- ======= 花壽司 (Maki) ======= -->
+                <div class="menu-item" data-category="maki">
+                    <div class="menu-item-content">
+                        <h3>肉鬆細卷</h3>
+                        <p class="menu-item-desc">肉鬆細卷，經典入門款</p>
+                        <span class="menu-price">NT$45</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="maki">
+                    <div class="menu-item-content">
+                        <h3>鮪魚沙拉細卷</h3>
+                        <p class="menu-item-desc">鮪魚沙拉搭配海苔細卷</p>
+                        <span class="menu-price">NT$45</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="maki">
+                    <div class="menu-item-content">
+                        <h3>龍蝦沙拉細卷</h3>
+                        <p class="menu-item-desc">龍蝦沙拉搭配海苔細卷</p>
+                        <span class="menu-price">NT$45</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="maki">
+                    <div class="menu-item-content">
+                        <h3>鮑魚沙拉細卷</h3>
+                        <p class="menu-item-desc">鮑魚沙拉搭配海苔細卷</p>
+                        <span class="menu-price">NT$45</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="maki">
+                    <div class="menu-item-content">
+                        <h3>魚卵沙拉細卷</h3>
+                        <p class="menu-item-desc">魚卵沙拉搭配海苔細卷</p>
+                        <span class="menu-price">NT$45</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="maki">
+                    <div class="menu-item-content">
+                        <h3>櫻花蝦捲</h3>
+                        <p class="menu-item-desc">香酥櫻花蝦海苔卷</p>
+                        <span class="menu-price">NT$45</span>
+                    </div>
+                </div>
+
+                <!-- ======= 湯品＆炸物 (Soup & Fried) ======= -->
+                <div class="menu-item" data-category="soup">
+                    <div class="menu-item-content">
+                        <h3>味噌湯</h3>
+                        <p class="menu-item-desc">經典日式味噌湯，溫暖暖胃</p>
+                        <span class="menu-price">NT$35</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="soup">
+                    <div class="menu-item-content">
+                        <h3>茶碗蒸</h3>
+                        <p class="menu-item-desc">滑嫩綿密的蒸蛋，暖心暖胃</p>
+                        <span class="menu-price">NT$40</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="soup">
+                    <div class="menu-item-content">
+                        <h3>炸蝦(3隻)</h3>
+                        <p class="menu-item-desc">酥脆炸蝦三隻，外酥內嫩</p>
+                        <span class="menu-price">NT$120</span>
+                    </div>
+                </div>
+
+                <!-- ======= 套餐系列 (Set Meals) ======= -->
+                <div class="menu-item" data-category="sets">
+                    <div class="menu-item-content">
+                        <h3>軍艦套餐(10顆)</h3>
+                        <p class="menu-item-desc">10顆軍艦壽司，附味噌湯</p>
+                        <span class="menu-price">NT$150</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="sets">
+                    <div class="menu-item-content">
+                        <h3>握壽司套餐</h3>
+                        <p class="menu-item-desc">精選握壽司組合，附味噌湯</p>
+                        <span class="menu-price">NT$160</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="sets">
+                    <div class="menu-item-content">
+                        <h3>熟食套餐(10顆)</h3>
+                        <p class="menu-item-desc">10顆精選熟食壽司，附味噌湯</p>
+                        <span class="menu-price">NT$210</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="sets">
+                    <div class="menu-item-content">
+                        <h3>醬燒豬肉捲套餐(6顆)</h3>
+                        <p class="menu-item-desc">6顆醬燒豬肉捲，附味噌湯</p>
+                        <span class="menu-price">NT$210</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="sets">
+                    <div class="menu-item-content">
+                        <h3>炙燒牛肉捲套餐(6顆)</h3>
+                        <p class="menu-item-desc">6顆炙燒牛肉捲，附味噌湯</p>
+                        <span class="menu-price">NT$240</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="sets">
+                    <div class="menu-item-content">
+                        <h3>炙燒鮭魚套餐(12顆)</h3>
+                        <p class="menu-item-desc">12顆炙燒鮭魚，附味噌湯</p>
+                        <span class="menu-price">NT$300</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="sets">
+                    <div class="menu-item-content">
+                        <h3>炙燒大蝦套餐(12顆)</h3>
+                        <p class="menu-item-desc">12顆炙燒大蝦，附味噌湯</p>
+                        <span class="menu-price">NT$300</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="sets">
+                    <div class="menu-item-content">
+                        <h3>炙燒鮭魚肚A套餐</h3>
+                        <p class="menu-item-desc">鮭魚肚炙燒套餐A組合，附味噌湯</p>
+                        <span class="menu-price">NT$300</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="sets">
+                    <div class="menu-item-content">
+                        <h3>炙燒鮭魚肚B套餐</h3>
+                        <p class="menu-item-desc">鮭魚肚炙燒套餐B組合，附味噌湯</p>
+                        <span class="menu-price">NT$300</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="sets">
+                    <div class="menu-item-content">
+                        <h3>炙燒生食級干貝鮮蝦套餐(各6顆)</h3>
+                        <p class="menu-item-desc">干貝與鮮蝦各6顆，附味噌湯</p>
+                        <span class="menu-price">NT$540</span>
+                    </div>
+                </div>
+
+                <!-- ======= 加購醬料 (Sauces) ======= -->
+                <div class="menu-item" data-category="sauce">
+                    <div class="menu-item-content">
+                        <h3>醬料組（醬油×1＋芥末×1）</h3>
+                        <p class="menu-item-desc">基本醬料組合</p>
+                        <span class="menu-price">NT$5</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="sauce">
+                    <div class="menu-item-content">
+                        <h3>醬油包×2</h3>
+                        <p class="menu-item-desc">額外加購醬油</p>
+                        <span class="menu-price">NT$5</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="sauce">
+                    <div class="menu-item-content">
+                        <h3>芥末包×2</h3>
+                        <p class="menu-item-desc">額外加購芥末</p>
+                        <span class="menu-price">NT$5</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-cta">
+                <a href="https://shop.ichefpos.com/store/tHs8E6WV/ordering" target="_blank" class="btn btn-primary">
+                    <span>查看完整菜單 & 線上訂餐</span>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery section">
+        <div class="container">
+            <span class="section-label center">Gallery</span>
+            <h2 class="section-title center">美味紀實</h2>
+            <p class="section-subtitle">用影像記錄每一份用心</p>
+            <div class="gallery-grid">
+                <div class="gallery-item large reveal-up">
+                    <img src="images/hero_sushi.png" alt="精選壽司拼盤" loading="lazy">
+                    <div class="gallery-caption">
+                        <h4>匠心拼盤</h4>
+                        <p>職人精選的壽司饗宴</p>
+                    </div>
+                </div>
+                <div class="gallery-item reveal-up" style="animation-delay: 0.1s">
+                    <img src="images/chef_craft.png" alt="職人手作" loading="lazy">
+                    <div class="gallery-caption">
+                        <h4>職人手作</h4>
+                        <p>一貫入魂的堅持</p>
+                    </div>
+                </div>
+                <div class="gallery-item reveal-up" style="animation-delay: 0.2s">
+                    <img src="images/menu_spread.png" alt="精緻料理" loading="lazy">
+                    <div class="gallery-caption">
+                        <h4>鮮味盛宴</h4>
+                        <p>每一道都是藝術品</p>
+                    </div>
+                </div>
+                <div class="gallery-item reveal-up" style="animation-delay: 0.3s">
+                    <img src="images/restaurant_interior.png" alt="店內環境" loading="lazy">
+                    <div class="gallery-caption">
+                        <h4>雅致空間</h4>
+                        <p>沉浸在日式氛圍中</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info reveal-left">
+                    <span class="section-label">Contact</span>
+                    <h2 class="section-title">聯絡我們</h2>
+                    <div class="about-divider"></div>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                            </div>
+                            <div>
+                                <h4>地址</h4>
+                                <p><a href="https://maps.app.goo.gl/sp565jHns74WFVUC9" target="_blank" style="color: var(--color-text-secondary); transition: var(--transition);">830高雄市鳳山區南京路245巷10號</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+                            </div>
+                            <div>
+                                <h4>電話</h4>
+                                <p>0975-276-309（11:00-16:00）</p>
+                                <p>0975-173-024（16:00-02:00）</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                            </div>
+                            <div>
+                                <h4>營業時間</h4>
+                                <p>每日 11:00 — 凌晨 02:00</p>
+                                <p class="text-accent">每週四公休</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-order">
+                        <h4>外送服務</h4>
+                        <div class="delivery-info">
+                            <div class="delivery-row"><span>3 公里內</span><span>滿 NT$300 即可外送</span></div>
+                            <div class="delivery-row"><span>4 公里內</span><span>滿 NT$400 即可外送</span></div>
+                            <div class="delivery-row"><span>5 公里內</span><span>滿 NT$600 即可外送</span></div>
+                            <div class="delivery-row"><span>6 公里內</span><span>滿 NT$700 即可外送</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-map reveal-right">
+                    <div class="map-embed">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.5!2d120.344767!3d22.6121547!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e05351be5ef93%3A0xe445b1803dc9578e!2z5b6h5aO95Y-4IOWNl-S6rOW6lw!5e0!3m2!1szh-TW!2stw!4v1711000000000"
+                            width="100%"
+                            height="100%"
+                            style="border:0; border-radius: 16px;"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                    <a href="https://maps.app.goo.gl/sp565jHns74WFVUC9" target="_blank" class="map-link">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/></svg>
+                        <span>在 Google Maps 中開啟</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <span class="logo-icon">御</span>
+                    <span class="logo-text">壽司</span>
+                    <p class="footer-tagline">匠心手作 · 鮮味至上</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#about">關於我們</a>
+                    <a href="#philosophy">職人精神</a>
+                    <a href="#menu">精選菜單</a>
+                    <a href="#gallery">美味紀實</a>
+                    <a href="#contact">聯絡我們</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 御壽司 Yu Sushi — 南京店. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main_v1.js"></script>
+</body>
+</html>
